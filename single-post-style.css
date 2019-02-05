@@ -1,0 +1,85 @@
+@charset "utf-8"
+/* CSS Document */
+
+/*
+Theme Name: Portfolio Theme
+Author: Nanna Valbjørn
+Author URI: http://1221s.com
+Description: My first Theme, meant for my personal portfolio
+Version: 0.1
+*/
+
+/* this one is only here because otherwise it wont register the rest */
+button {
+}
+
+* {
+  display: block;
+}
+
+body {
+  background-color: #515151;
+  margin:0;
+  padding:0;
+}
+
+h1, h2, h3, h4, a, p {
+  font-family:'Roboto', sans-serif;
+  font-size:1em;
+  text-align:left;
+  color: #f37B36;
+}
+
+h1 {
+  font-size: 1em;
+  text-align:center;
+}
+
+/* Header */
+header {
+  position:relative;
+  margin:0;
+  margin-bottom:50px;
+  padding: 20px;
+
+  background-color: #659157;
+
+}
+.headerContentWrapper {
+}
+
+/* navbar */
+.navigationMenu{
+  width: 100%;
+}
+
+/* posts */
+.postWrapper {
+width:50vw;
+height:auto;
+margin:auto;
+background-color: grey;
+padding:15px;
+margin-bottom: 30px;
+border-radius: 15px;
+padding-bottom:80px;
+}
+
+.contentWrapper {
+  width:70%;
+  margin:auto;
+}
+
+.readMore {
+  position:relative;
+  display:inline-block;
+  float:right;
+  font-size:1em;
+  text-align:center;
+  height: 5vh;
+  width:15vw;
+  padding:10px;
+  padding-top:15px;
+  background-color:lightblue;
+  border-radius: 15px;
+}
